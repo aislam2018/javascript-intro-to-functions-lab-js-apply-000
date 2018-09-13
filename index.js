@@ -11,3 +11,8 @@ function logShout(string) {
   console.log(capped);
 }
 
+function logWhisper(string) {
+  var lowered = string.toLowerCase();
+  console.log(lowered);
+}
+
